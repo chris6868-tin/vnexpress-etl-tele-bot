@@ -31,7 +31,7 @@ NewsBot is a news scraping and summarization system that crawls articles from Vn
 1. Clone the repository:
 
 ```powershell
-git clone <your-repo-url>
+git clone https://github.com/chris6868-tin/vnexpress-etl-tele-bot.git
 cd newsbot
 ```
 

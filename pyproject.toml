@@ -1,0 +1,13 @@
+[project]
+name = "newsbot"
+version = "0.1.0"
+description = "An automated ETL pipeline that scrapes news from VnExpress, summarizes content using Gemini AI, and delivers daily briefings via Telegram."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-genai>=2.0.1",
+    "psycopg2>=2.9.12",
+    "python-dotenv>=1.2.2",
+    "python-telegram-bot>=22.7",
+    "scrapy>=2.15.2",
+]

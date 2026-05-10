@@ -50,7 +50,7 @@ def summarizer_from_db(limit=5):
         cur = conn.cursor()
 
         cur.execute(
-            "SELECT id, title, content, url FROM articles ORDER BY created_at DESC LIMIT %s",
+            "SELECT id, title, content, url FROM articles WHERE is_sent = FALSE LIMIT %s",
             (limit,)
         )
         rows = cur.fetchall()

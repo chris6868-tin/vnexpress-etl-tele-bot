@@ -1,0 +1,51 @@
+[2026-05-11T08:50:21.533+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-05-11T08:50:21.604+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: newsbot_daily_workflow.scrape_vnexpress scheduled__2026-05-10T00:00:00+00:00 [queued]>
+[2026-05-11T08:50:21.617+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: newsbot_daily_workflow.scrape_vnexpress scheduled__2026-05-10T00:00:00+00:00 [queued]>
+[2026-05-11T08:50:21.618+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-05-11T08:50:21.630+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): scrape_vnexpress> on 2026-05-10 00:00:00+00:00
+[2026-05-11T08:50:21.634+0000] {standard_task_runner.py:63} INFO - Started process 218 to run task
+[2026-05-11T08:50:21.639+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'newsbot_daily_workflow', 'scrape_vnexpress', 'scheduled__2026-05-10T00:00:00+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/newsbot_dag.py', '--cfg-path', '/tmp/tmpb87q5tlr']
+[2026-05-11T08:50:21.643+0000] {standard_task_runner.py:91} INFO - Job 2: Subtask scrape_vnexpress
+[2026-05-11T08:50:21.680+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.11/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-05-11T08:50:21.772+0000] {task_command.py:426} INFO - Running <TaskInstance: newsbot_daily_workflow.scrape_vnexpress scheduled__2026-05-10T00:00:00+00:00 [running]> on host 70394b7246a3
+[2026-05-11T08:50:22.076+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='newsbot' AIRFLOW_CTX_DAG_ID='newsbot_daily_workflow' AIRFLOW_CTX_TASK_ID='scrape_vnexpress' AIRFLOW_CTX_EXECUTION_DATE='2026-05-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-10T00:00:00+00:00'
+[2026-05-11T08:50:22.077+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-05-11T08:50:22.126+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-05-11T08:50:22.127+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/***/app/run_scrape.py']
+[2026-05-11T08:50:22.137+0000] {subprocess.py:86} INFO - Output:
+[2026-05-11T08:50:23.113+0000] {subprocess.py:93} INFO - Scrapy 2.15.2 - no active project
+[2026-05-11T08:50:23.113+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:50:23.114+0000] {subprocess.py:93} INFO - The crawl command is not available from this location.
+[2026-05-11T08:50:23.114+0000] {subprocess.py:93} INFO - These commands are only available from within a project: check, crawl, edit, list, parse.
+[2026-05-11T08:50:23.114+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:50:23.115+0000] {subprocess.py:93} INFO - Use "scrapy" to see available commands
+[2026-05-11T08:50:23.183+0000] {subprocess.py:93} INFO - Chạy Scrapy crawler: vnexpress
+[2026-05-11T08:50:23.184+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-05-11T08:50:23.184+0000] {subprocess.py:93} INFO -   File "/opt/***/app/run_scrape.py", line 11, in <module>
+[2026-05-11T08:50:23.186+0000] {subprocess.py:93} INFO -     run_scrape()
+[2026-05-11T08:50:23.186+0000] {subprocess.py:93} INFO -   File "/opt/***/app/run_scrape.py", line 7, in run_scrape
+[2026-05-11T08:50:23.187+0000] {subprocess.py:93} INFO -     subprocess.run([sys.executable, "-m", "scrapy", "crawl", "vnexpress"], check=True)
+[2026-05-11T08:50:23.188+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.11/subprocess.py", line 571, in run
+[2026-05-11T08:50:23.188+0000] {subprocess.py:93} INFO -     raise CalledProcessError(retcode, process.args,
+[2026-05-11T08:50:23.188+0000] {subprocess.py:93} INFO - subprocess.CalledProcessError: Command '['/home/***/.local/bin/python', '-m', 'scrapy', 'crawl', 'vnexpress']' returned non-zero exit status 2.
+[2026-05-11T08:50:23.191+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-05-11T08:50:23.192+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-05-11T08:50:23.203+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-05-11T08:50:23.206+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=newsbot_daily_workflow, task_id=scrape_vnexpress, run_id=scheduled__2026-05-10T00:00:00+00:00, execution_date=20260510T000000, start_date=20260511T085021, end_date=20260511T085023
+[2026-05-11T08:50:23.215+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 2 for task scrape_vnexpress (Bash command failed. The command returned a non-zero exit code 1.; 218)
+[2026-05-11T08:50:23.221+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-05-11T08:50:23.241+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-11T08:50:23.242+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

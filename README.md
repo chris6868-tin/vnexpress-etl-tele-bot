@@ -71,7 +71,9 @@ TELEGRAM_CHAT_ID=your-chat-id
 GEMINI_API_KEY=your-google-gemini-api-key
 ```
 
-> If you are using `docker-compose.yml`, make sure `DB_PORT` in `.env` matches the port mapping used by Docker.
+If you use Supabase for the main database, replace the DB_* values with your Supabase database credentials and keep `DB_PORT=5432` (or your Supabase port).
+
+> When running Airflow from `airflow/docker-compose.yml`, the compose file loads `.env` from the project root, so no local PostgreSQL container is required for the app database.
 
 ## Usage
 
@@ -116,6 +118,37 @@ python main.py telegram
 ```powershell
 python main.py all
 ```
+
+### Use Apache Airflow
+
+1. Tạo file `.env` nếu chưa có.
+2. Chuyển tới thư mục Airflow:
+
+```powershell
+cd airflow
+```
+
+3. Khởi động Airflow cùng PostgreSQL metadata và NewsBot DB:
+
+```powershell
+docker compose up --build
+```
+
+4. Mở UI Airflow tại:
+
+```text
+http://localhost:8080
+```
+
+5. Đăng nhập với user mặc định:
+
+```text
+admin / admin
+```
+
+6. Kích hoạt DAG `newsbot_daily_workflow`.
+
+> DAG sẽ chạy `run_scrape.py` rồi `run_summary.py` theo lịch hàng ngày.
 
 ## Project structure
 

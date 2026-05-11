@@ -1,0 +1,226 @@
+[2026-05-11T08:45:59.176+0000] {processor.py:161} INFO - Started process (PID=172) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:45:59.177+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:45:59.180+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:45:59.179+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:45:59.220+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:45:59.474+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:45:59.473+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:newsbot_daily_workflow
+[2026-05-11T08:45:59.484+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:45:59.484+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:newsbot_daily_workflow
+[2026-05-11T08:45:59.493+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:45:59.493+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:newsbot_daily_workflow
+[2026-05-11T08:45:59.494+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:45:59.494+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:45:59.610+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:45:59.610+0000] {dag.py:3118} INFO - Creating ORM DAG for newsbot_daily_workflow
+[2026-05-11T08:45:59.619+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:45:59.619+0000] {dag.py:3954} INFO - Setting next_dagrun for newsbot_daily_workflow to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-11T08:45:59.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.471 seconds
+[2026-05-11T08:46:29.871+0000] {processor.py:161} INFO - Started process (PID=177) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:46:29.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:46:29.874+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:46:29.873+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:46:29.896+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:46:29.933+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:46:29.933+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:46:29.956+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:46:29.956+0000] {dag.py:3954} INFO - Setting next_dagrun for newsbot_daily_workflow to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-11T08:46:29.982+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.117 seconds
+[2026-05-11T08:47:00.095+0000] {processor.py:161} INFO - Started process (PID=182) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:47:00.096+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:47:00.098+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:47:00.098+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:47:00.127+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:47:00.174+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:47:00.174+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:47:00.198+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:47:00.198+0000] {dag.py:3954} INFO - Setting next_dagrun for newsbot_daily_workflow to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-11T08:47:00.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.134 seconds
+[2026-05-11T08:47:30.473+0000] {processor.py:161} INFO - Started process (PID=187) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:47:30.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:47:30.477+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:47:30.476+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:47:30.503+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:47:30.545+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:47:30.545+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:47:30.580+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:47:30.580+0000] {dag.py:3954} INFO - Setting next_dagrun for newsbot_daily_workflow to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-11T08:47:30.614+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.146 seconds
+[2026-05-11T08:48:00.740+0000] {processor.py:161} INFO - Started process (PID=192) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:48:00.741+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:48:00.743+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:48:00.742+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:48:00.766+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:48:00.807+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:48:00.806+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:48:00.842+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:48:00.842+0000] {dag.py:3954} INFO - Setting next_dagrun for newsbot_daily_workflow to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-11T08:48:00.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.131 seconds
+[2026-05-11T08:48:31.201+0000] {processor.py:161} INFO - Started process (PID=197) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:48:31.203+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:48:31.204+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:48:31.204+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:48:31.223+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:48:31.274+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:48:31.274+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:48:31.305+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:48:31.304+0000] {dag.py:3954} INFO - Setting next_dagrun for newsbot_daily_workflow to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-11T08:48:31.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.271 seconds
+[2026-05-11T08:49:01.732+0000] {processor.py:161} INFO - Started process (PID=202) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:49:01.733+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:49:01.736+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:49:01.735+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:49:01.765+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:49:01.824+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:49:01.824+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:49:01.982+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:49:01.981+0000] {dag.py:3954} INFO - Setting next_dagrun for newsbot_daily_workflow to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-11T08:49:02.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.289 seconds
+[2026-05-11T08:49:32.280+0000] {processor.py:161} INFO - Started process (PID=207) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:49:32.280+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:49:32.283+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:49:32.282+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:49:32.307+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:49:32.497+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:49:32.496+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:49:32.515+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:49:32.515+0000] {dag.py:3954} INFO - Setting next_dagrun for newsbot_daily_workflow to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-11T08:49:32.534+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.259 seconds
+[2026-05-11T08:50:02.794+0000] {processor.py:161} INFO - Started process (PID=212) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:50:02.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:50:02.798+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:50:02.797+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:50:02.941+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:50:02.965+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:50:02.965+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:50:02.982+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:50:02.982+0000] {dag.py:3954} INFO - Setting next_dagrun for newsbot_daily_workflow to 2026-05-10 00:00:00+00:00, run_after=2026-05-11 00:00:00+00:00
+[2026-05-11T08:50:03.004+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.217 seconds
+[2026-05-11T08:50:33.356+0000] {processor.py:161} INFO - Started process (PID=221) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:50:33.357+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:50:33.358+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:50:33.358+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:50:33.381+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:50:33.434+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:50:33.434+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:50:33.487+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.137 seconds
+[2026-05-11T08:51:03.672+0000] {processor.py:161} INFO - Started process (PID=226) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:51:03.673+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:51:03.675+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:51:03.675+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:51:03.701+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:51:03.749+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:51:03.749+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:51:03.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.145 seconds
+[2026-05-11T08:51:34.025+0000] {processor.py:161} INFO - Started process (PID=231) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:51:34.026+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:51:34.028+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:51:34.027+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:51:34.056+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:51:34.102+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:51:34.102+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:51:34.170+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.151 seconds
+[2026-05-11T08:52:04.287+0000] {processor.py:161} INFO - Started process (PID=236) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:52:04.287+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:52:04.289+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:52:04.289+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:52:04.313+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:52:04.376+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:52:04.376+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:52:04.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.152 seconds
+[2026-05-11T08:52:34.721+0000] {processor.py:161} INFO - Started process (PID=241) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:52:34.722+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:52:34.725+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:52:34.724+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:52:34.753+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:52:34.805+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:52:34.805+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:52:34.864+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.149 seconds
+[2026-05-11T08:53:04.947+0000] {processor.py:161} INFO - Started process (PID=246) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:53:04.948+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:53:04.950+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:53:04.950+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:53:04.971+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:53:05.005+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:53:05.005+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:53:05.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.103 seconds
+[2026-05-11T08:53:35.199+0000] {processor.py:161} INFO - Started process (PID=251) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:53:35.200+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:53:35.202+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:53:35.202+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:53:35.225+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:53:35.262+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:53:35.262+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:53:35.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.132 seconds
+[2026-05-11T08:54:05.586+0000] {processor.py:161} INFO - Started process (PID=256) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:54:05.587+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:54:05.589+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:54:05.589+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:54:05.614+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:54:05.653+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:54:05.652+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:54:05.702+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.122 seconds
+[2026-05-11T08:54:35.843+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:54:35.844+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:54:35.846+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:54:35.846+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:54:35.867+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:54:35.900+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:54:35.899+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:54:35.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.100 seconds
+[2026-05-11T08:55:06.223+0000] {processor.py:161} INFO - Started process (PID=266) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:55:06.224+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:55:06.226+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:55:06.225+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:55:06.248+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:55:06.307+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:55:06.307+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:55:06.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.148 seconds
+[2026-05-11T08:55:36.491+0000] {processor.py:161} INFO - Started process (PID=275) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:55:36.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:55:36.494+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:55:36.494+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:55:36.515+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:55:36.548+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:55:36.547+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:55:36.568+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:55:36.568+0000] {dag.py:3954} INFO - Setting next_dagrun for newsbot_daily_workflow to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T08:55:36.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.099 seconds
+[2026-05-11T08:56:05.802+0000] {processor.py:161} INFO - Started process (PID=280) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:56:05.803+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:56:05.805+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:56:05.805+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:56:05.843+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:56:05.948+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:56:05.948+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:56:05.965+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:56:05.965+0000] {dag.py:3954} INFO - Setting next_dagrun for newsbot_daily_workflow to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T08:56:05.987+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.190 seconds
+[2026-05-11T08:56:06.834+0000] {processor.py:161} INFO - Started process (PID=285) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:56:06.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:56:06.837+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:56:06.836+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:56:06.872+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:56:06.891+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:56:06.891+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:56:06.924+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:56:06.923+0000] {dag.py:3954} INFO - Setting next_dagrun for newsbot_daily_workflow to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T08:56:06.949+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.119 seconds
+[2026-05-11T08:56:37.043+0000] {processor.py:161} INFO - Started process (PID=296) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:56:37.044+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:56:37.046+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:56:37.046+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:56:37.066+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:56:37.104+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:56:37.104+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:56:37.138+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.102 seconds
+[2026-05-11T08:57:07.368+0000] {processor.py:161} INFO - Started process (PID=301) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:57:07.370+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:57:07.372+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:57:07.372+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:57:07.398+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:57:07.455+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:57:07.455+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:57:07.497+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.138 seconds
+[2026-05-11T08:57:37.587+0000] {processor.py:161} INFO - Started process (PID=309) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:57:37.588+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:57:37.590+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:57:37.590+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:57:37.613+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:57:37.672+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:57:37.672+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:57:37.712+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.132 seconds
+[2026-05-11T08:58:07.953+0000] {processor.py:161} INFO - Started process (PID=314) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:58:07.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:58:07.956+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:58:07.955+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:58:07.978+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:58:08.031+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:58:08.030+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:58:08.097+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.150 seconds
+[2026-05-11T08:58:38.166+0000] {processor.py:161} INFO - Started process (PID=325) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:58:38.167+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:58:38.169+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:58:38.168+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:58:38.190+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:58:38.229+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:58:38.229+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:58:38.298+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.139 seconds
+[2026-05-11T08:59:08.544+0000] {processor.py:161} INFO - Started process (PID=330) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:59:08.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:59:08.547+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:59:08.547+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:59:08.569+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:59:08.600+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:59:08.600+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:59:08.648+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.110 seconds
+[2026-05-11T08:59:38.796+0000] {processor.py:161} INFO - Started process (PID=338) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:59:38.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T08:59:38.800+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:59:38.800+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:59:38.834+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T08:59:38.875+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:59:38.875+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T08:59:38.896+0000] {logging_mixin.py:188} INFO - [2026-05-11T08:59:38.895+0000] {dag.py:3954} INFO - Setting next_dagrun for newsbot_daily_workflow to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T08:59:38.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.122 seconds
+[2026-05-11T09:00:09.098+0000] {processor.py:161} INFO - Started process (PID=343) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T09:00:09.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T09:00:09.100+0000] {logging_mixin.py:188} INFO - [2026-05-11T09:00:09.100+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T09:00:09.121+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T09:00:09.167+0000] {logging_mixin.py:188} INFO - [2026-05-11T09:00:09.167+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T09:00:09.202+0000] {logging_mixin.py:188} INFO - [2026-05-11T09:00:09.202+0000] {dag.py:3954} INFO - Setting next_dagrun for newsbot_daily_workflow to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T09:00:09.238+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.145 seconds
+[2026-05-11T09:00:39.391+0000] {processor.py:161} INFO - Started process (PID=348) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T09:00:39.392+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T09:00:39.394+0000] {logging_mixin.py:188} INFO - [2026-05-11T09:00:39.393+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T09:00:39.412+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T09:00:39.447+0000] {logging_mixin.py:188} INFO - [2026-05-11T09:00:39.447+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T09:00:39.475+0000] {logging_mixin.py:188} INFO - [2026-05-11T09:00:39.475+0000] {dag.py:3954} INFO - Setting next_dagrun for newsbot_daily_workflow to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T09:00:39.507+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.122 seconds
+[2026-05-11T09:01:09.768+0000] {processor.py:161} INFO - Started process (PID=353) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T09:01:09.768+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T09:01:09.771+0000] {logging_mixin.py:188} INFO - [2026-05-11T09:01:09.770+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T09:01:09.789+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T09:01:09.821+0000] {logging_mixin.py:188} INFO - [2026-05-11T09:01:09.820+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T09:01:09.840+0000] {logging_mixin.py:188} INFO - [2026-05-11T09:01:09.840+0000] {dag.py:3954} INFO - Setting next_dagrun for newsbot_daily_workflow to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T09:01:09.859+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.097 seconds
+[2026-05-11T09:01:40.056+0000] {processor.py:161} INFO - Started process (PID=358) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T09:01:40.057+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T09:01:40.059+0000] {logging_mixin.py:188} INFO - [2026-05-11T09:01:40.058+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T09:01:40.079+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T09:01:40.109+0000] {logging_mixin.py:188} INFO - [2026-05-11T09:01:40.109+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T09:01:40.131+0000] {logging_mixin.py:188} INFO - [2026-05-11T09:01:40.131+0000] {dag.py:3954} INFO - Setting next_dagrun for newsbot_daily_workflow to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T09:01:40.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.108 seconds
+[2026-05-11T09:02:10.357+0000] {processor.py:161} INFO - Started process (PID=427) to work on /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T09:02:10.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/newsbot_dag.py for tasks to queue
+[2026-05-11T09:02:10.360+0000] {logging_mixin.py:188} INFO - [2026-05-11T09:02:10.360+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T09:02:10.379+0000] {processor.py:840} INFO - DAG(s) 'newsbot_daily_workflow' retrieved from /opt/airflow/dags/newsbot_dag.py
+[2026-05-11T09:02:10.408+0000] {logging_mixin.py:188} INFO - [2026-05-11T09:02:10.408+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-11T09:02:10.426+0000] {logging_mixin.py:188} INFO - [2026-05-11T09:02:10.426+0000] {dag.py:3954} INFO - Setting next_dagrun for newsbot_daily_workflow to 2026-05-11 00:00:00+00:00, run_after=2026-05-12 00:00:00+00:00
+[2026-05-11T09:02:10.444+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/newsbot_dag.py took 0.092 seconds

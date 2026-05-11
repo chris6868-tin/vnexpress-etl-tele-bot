@@ -1,0 +1,68 @@
+[2026-05-11T08:57:32.621+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-05-11T08:57:32.652+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: newsbot_daily_workflow.summarize_latest_articles manual__2026-05-11T08:56:27.016168+00:00 [queued]>
+[2026-05-11T08:57:32.659+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: newsbot_daily_workflow.summarize_latest_articles manual__2026-05-11T08:56:27.016168+00:00 [queued]>
+[2026-05-11T08:57:32.660+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-05-11T08:57:32.668+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): summarize_latest_articles> on 2026-05-11 08:56:27.016168+00:00
+[2026-05-11T08:57:32.672+0000] {standard_task_runner.py:63} INFO - Started process 307 to run task
+[2026-05-11T08:57:32.674+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'newsbot_daily_workflow', 'summarize_latest_articles', 'manual__2026-05-11T08:56:27.016168+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/newsbot_dag.py', '--cfg-path', '/tmp/tmp3_r0vl2i']
+[2026-05-11T08:57:32.676+0000] {standard_task_runner.py:91} INFO - Job 5: Subtask summarize_latest_articles
+[2026-05-11T08:57:32.692+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.11/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-05-11T08:57:32.733+0000] {task_command.py:426} INFO - Running <TaskInstance: newsbot_daily_workflow.summarize_latest_articles manual__2026-05-11T08:56:27.016168+00:00 [running]> on host 70394b7246a3
+[2026-05-11T08:57:32.926+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='newsbot' AIRFLOW_CTX_DAG_ID='newsbot_daily_workflow' AIRFLOW_CTX_TASK_ID='summarize_latest_articles' AIRFLOW_CTX_EXECUTION_DATE='2026-05-11T08:56:27.016168+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-11T08:56:27.016168+00:00'
+[2026-05-11T08:57:32.927+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-05-11T08:57:32.949+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-05-11T08:57:32.951+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/app && python run_summary.py']
+[2026-05-11T08:57:32.968+0000] {subprocess.py:86} INFO - Output:
+[2026-05-11T08:58:19.271+0000] {subprocess.py:93} INFO - Chạy tóm tắt bài viết từ cơ sở dữ liệu
+[2026-05-11T08:58:19.271+0000] {subprocess.py:93} INFO - Dang xu ly 5 bai viet...
+[2026-05-11T08:58:19.272+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.272+0000] {subprocess.py:93} INFO - 📰 *Quốc hội sẽ sửa toàn diện Luật Đất đai*
+[2026-05-11T08:58:19.273+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.273+0000] {subprocess.py:93} INFO - ✨ *Tóm tắt:* Ủy ban Thường vụ Quốc hội đã thảo luận chuẩn bị cho kỳ họp cuối năm với khối lượng lớn gần 40 dự án luật và nghị quyết, trong đó việc sửa đổi toàn diện Luật Đất đai được xác định là nhiệm vụ trọng tâm. Luật Đất đai 2024, có hiệu lực từ 1/8/2024, cần điều chỉnh do nhiều bất cập phát sinh sau gần hai năm, đặc biệt là sự không đồng bộ với mô hình chính quyền địa phương hai cấp sẽ triển khai từ 1/7/2025. Dự thảo sửa đổi dự kiến điều chỉnh khoảng 65 điều, tập trung vào việc cấp sổ đỏ cho đất mua bán giấy viết tay giai đoạn 2014-2024, siết giao dịch đất chờ thu hồi và tăng phân cấp, phân quyền.
+[2026-05-11T08:58:19.273+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.274+0000] {subprocess.py:93} INFO - 🔗 [Đọc bài gốc](https://vnexpress.net/quoc-hoi-se-sua-toan-dien-luat-dat-dai-5072500.html)
+[2026-05-11T08:58:19.274+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.275+0000] {subprocess.py:93} INFO - --------------------------------------------------------------------------------
+[2026-05-11T08:58:19.275+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.275+0000] {subprocess.py:93} INFO - 📰 *Già rồi, ai nuôi mình?*
+[2026-05-11T08:58:19.276+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.276+0000] {subprocess.py:93} INFO - ✨ *Tóm tắt:* Dựa trên nội dung bài báo, đây là tóm tắt khách quan trong 3 câu:
+[2026-05-11T08:58:19.276+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.277+0000] {subprocess.py:93} INFO - 1.  Người cao tuổi Việt Nam đang đối mặt với thách thức tài chính lớn khi mô hình gia đình truyền thống suy yếu và tuổi thọ tăng lên kéo dài thời gian nghỉ hưu, khiến lương hưu cơ bản thường không đủ trang trải chi phí.
+[2026-05-11T08:58:19.277+0000] {subprocess.py:93} INFO - 2.  Đây là bài toán chung trên thế giới, thúc đẩy nhiều quốc gia phát triển như Mỹ, Anh, Nhật Bản, Hàn Quốc chuyển dịch sang các mô hình tích lũy hưu trí cá nhân và bổ sung mạnh mẽ.
+[2026-05-11T08:58:19.277+0000] {subprocess.py:93} INFO - 3.  Việt Nam sẽ triển khai cơ chế Quỹ hưu trí bổ sung tự nguyện theo Nghị định 85/2026, có hiệu lực từ 10/5/2026, nhằm giúp người lao động và doanh nghiệp chủ động chuẩn bị thêm tài chính cho tuổi già, bên cạnh hệ thống bảo hiểm xã hội bắt buộc.
+[2026-05-11T08:58:19.277+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.278+0000] {subprocess.py:93} INFO - 🔗 [Đọc bài gốc](https://vnexpress.net/gia-roi-ai-nuoi-minh-5072169.html)
+[2026-05-11T08:58:19.278+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.278+0000] {subprocess.py:93} INFO - --------------------------------------------------------------------------------
+[2026-05-11T08:58:19.278+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.279+0000] {subprocess.py:93} INFO - 📰 *Quốc hội lo cán bộ cơ sở quá tải, khó giữ nhiệt huyết*
+[2026-05-11T08:58:19.279+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.279+0000] {subprocess.py:93} INFO - ✨ *Tóm tắt:* Dựa trên báo cáo công tác dân nguyện sáng 11/5, Ủy ban Thường vụ Quốc hội bày tỏ lo ngại về áp lực công việc và tình trạng quá tải của cán bộ, công chức cấp xã sau khi thực hiện mô hình chính quyền địa phương hai cấp. Cụ thể, khối lượng công việc tại cấp xã tăng vọt (ví dụ: phòng kinh tế liên quan tới 7 sở, ngành), nhưng chế độ phụ cấp trách nhiệm lại rất thấp (trưởng phòng 0.25, phó phòng 0.15) và một số chế độ trước đây đã bị cắt bỏ. Tình trạng này đặt ra thách thức lớn về khả năng giữ nhiệt huyết, thích ứng của cán bộ và chất lượng triển khai các chính sách trực tiếp tới người dân, trong khi nguồn lực ngân sách còn hạn chế, yêu cầu tăng cường đào tạo và khuyến khích địa phương chủ động hỗ trợ.
+[2026-05-11T08:58:19.279+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.280+0000] {subprocess.py:93} INFO - 🔗 [Đọc bài gốc](https://vnexpress.net/quoc-hoi-lo-can-bo-co-so-qua-tai-kho-giu-nhiet-huyet-5072100.html)
+[2026-05-11T08:58:19.280+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.280+0000] {subprocess.py:93} INFO - --------------------------------------------------------------------------------
+[2026-05-11T08:58:19.280+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.281+0000] {subprocess.py:93} INFO - 📰 *Shipper ở TP HCM bị khách đấm chảy máu mũi*
+[2026-05-11T08:58:19.281+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.281+0000] {subprocess.py:93} INFO - ✨ *Tóm tắt:* Vào ngày 11/5, Công an phường Rạch Dừa, TP HCM, đã triệu tập ông Tấn, 55 tuổi, sau khi người này tấn công một shipper. Vụ việc xảy ra khi ông Tấn, cho rằng sản phẩm máy cắt tỉa lông chó không đúng mẫu, đã đấm vào mặt nam shipper 35 tuổi khiến nạn nhân chảy máu mũi vì người này từ chối kiểm tra hàng tại chỗ. Công an TP HCM khẳng định mọi hành vi dùng bạo lực giải quyết mâu thuẫn sẽ bị xử lý theo quy định pháp luật.
+[2026-05-11T08:58:19.282+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.282+0000] {subprocess.py:93} INFO - 🔗 [Đọc bài gốc](https://vnexpress.net/shipper-o-tp-hcm-bi-khach-dam-chay-mau-mui-5072507.html)
+[2026-05-11T08:58:19.282+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.282+0000] {subprocess.py:93} INFO - --------------------------------------------------------------------------------
+[2026-05-11T08:58:19.283+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.283+0000] {subprocess.py:93} INFO - 📰 *Phút người vợ vĩnh biệt chồng trước ca mổ hiến tạng*
+[2026-05-11T08:58:19.283+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.284+0000] {subprocess.py:93} INFO - ✨ *Tóm tắt:* Một người đàn ông 38 tuổi tại Quảng Ninh đã hiến tặng tim, gan, hai thận và hai giác mạc sau khi được chẩn đoán chết não do tai nạn giao thông. Ngày 11/5, Bệnh viện Đa khoa tỉnh Quảng Ninh đã kích hoạt quy trình lấy - ghép tạng với sự tham gia của khoảng 100 y bác sĩ từ ba bệnh viện lớn, bao gồm Bệnh viện Việt Đức và Bệnh viện Đại học Y Dược TP HCM. Các tạng được vận chuyển đến Hà Nội, TP HCM để ghép, trong khi hai quả thận được ghép ngay tại Bệnh viện Đa khoa tỉnh Quảng Ninh, đây là trường hợp hiến tạng thứ 4 của tỉnh và lần thứ hai lấy ghép tạng tại bệnh viện này.
+[2026-05-11T08:58:19.284+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.284+0000] {subprocess.py:93} INFO - 🔗 [Đọc bài gốc](https://vnexpress.net/phut-nguoi-vo-vinh-biet-chong-truoc-ca-mo-hien-tang-5072292.html)
+[2026-05-11T08:58:19.285+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.285+0000] {subprocess.py:93} INFO - --------------------------------------------------------------------------------
+[2026-05-11T08:58:19.285+0000] {subprocess.py:93} INFO - 
+[2026-05-11T08:58:19.436+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-05-11T08:58:19.438+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-05-11T08:58:19.491+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=newsbot_daily_workflow, task_id=summarize_latest_articles, run_id=manual__2026-05-11T08:56:27.016168+00:00, execution_date=20260511T085627, start_date=20260511T085732, end_date=20260511T085819
+[2026-05-11T08:58:19.511+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-05-11T08:58:19.528+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-11T08:58:19.530+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

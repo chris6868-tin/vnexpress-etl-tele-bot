@@ -5,6 +5,7 @@ description = "An automated ETL pipeline that scrapes news from VnExpress, summa
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "apache-airflow==2.9.1",
     "google-genai>=2.0.1",
     "psycopg2>=2.9.12",
     "python-dotenv>=1.2.2",

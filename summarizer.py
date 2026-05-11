@@ -50,7 +50,7 @@ def summarizer_from_db(limit=5):
         cur = conn.cursor()
 
         cur.execute(
-            "SELECT id, title, content, url FROM articles WHERE is_sent = FALSE LIMIT %s",
+            "SELECT id, title, content, url FROM articles WHERE is_sent = FALSE ORDER BY created_at DESC LIMIT %s",
             (limit,)
         )
         rows = cur.fetchall()
@@ -64,6 +64,11 @@ def summarizer_from_db(limit=5):
                 message = AI_work(title, content, url)
                 if message:
                     yield message
+                    cur.execute(
+                        "UPDATE articles SET is_sent = TRUE WHERE id = %s",
+                        (article_id,)
+                    )
+                    conn.commit()
                 else:
                     print(f"AI khong the tom tat! quy tac: {title}")
 
